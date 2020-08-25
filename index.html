@@ -195,3 +195,341 @@
 Todo lo que necesitas está aquí.
 </div>
  
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table { font-family: “Lucida Sans Unicode”, “Lucida Grande”, Sans-Serif;
+font-size: 12px; margin: 45px; width: 480px; text-align: left; border-collapse: collapse; }
+
+th { font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe;
+border-top: 4px solid #aabcfe; border-bottom: 1px solid #fff; color: #039; }
+
+td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+color: #669; border-top: 1px solid transparent; }
+.slider {.slider { width: 95%; margin: auto; overflow: hidden;}
+.slider ul { display: flex; padding: 0; width: 400%; animation: cambio 20s infinite alternate linear;}
+.slider li { width: 100%; list-style: none;}
+.slider img { width: 100%;}
+@keyframes cambio { 0% {margin-left: 0;} 20% {margin-left: 0;} 25% {margin-left: -100%;} 45% {margin-left: -100%;} 50% {margin-left: -200%;} 70% {margin-left: -200%;} 75% {margin-left: -300%;} 100% {margin-left: -300%;}}
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 20px;
+background: #333;
+color: #eee;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666;
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+background: #999;
+color: #000;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+max-height: 300px;
+transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+background: #666;
+color: #fff;
+}
+/* Reset */
+.cartera, .tarjeta, .tarjeta a {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+/* Contenedor general */
+.cartera {
+position: relative;
+width: 100%;
+max-width: 500px;
+margin: 40px auto 0;
+text-align: center;
+line-height: 56px;
+font-size: 14px;
+font-family: sans-serif;
+}
+/* Cada tarjeta */
+.tarjeta {
+position: relative;
+width: 100%;
+height: 30px;
+margin: 0 auto;
+padding: 0;
+text-align: left;
+border-bottom: 3px groove #eee;
+}
+/* Estado normal */
+.tarjeta a {
+position: relative;
+display: block;
+top: -6px;
+left: 50%;
+width: 96%;
+margin-left: -48%;
+padding: 0 0 0 16px;
+line-height: 32px;
+font-weight: normal;
+border-radius: 16px 16px 0 0;
+text-decoration: none;
+box-shadow: 0 -2px 2px rgba(0,0,0,.1), 0 0 20px rgba(0,0,0,.2) inset;
+-webkit-transition: all .2s linear;
+-moz-transition: all .2s linear;
+transition: all .2s linear;
+}
+/* Elevación de las tarjetas */
+.tarjeta a:hover {
+line-height: 52px;
+top: -26px;
+text-decoration: none;
+}
+/* Logos */
+.tarjeta a:before {
+display: inline-block; *display: inline; zoom: 1;
+width: 20px;
+margin-right: 10px;
+text-align: center;
+font-family: Fontawesome;
+font-size: 18px;
+}
+/* Sombra parte inferior */
+.tarjeta a:after {
+content: “”;
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 102%;
+margin-left: -51%;
+height: 2px;
+display: block;
+border-radius: 80px 80px 0 0 ;
+box-shadow: 0 -2px 6px #666;
+z-index: -1;
+}
+/* Colores Twitter */
+.tarjeta.ttwitter a {
+color: #ddd;
+background-color: #01AFEC;
+border-top: 2px solid #43CFFE;
+}
+/* Colores Google+ */
+.tarjeta.tgoogle a {
+color: #333;
+background-color: #DB4A37;
+border-top: 2px solid #E88C80;
+}
+/* Colores Facebook */
+.tarjeta.tfacebook a {
+color: #ccc;
+background: #3B559F;
+border-top: 2px solid #6B83C9;
+}
+/* Colores Linkedin */
+.tarjeta.tlinkedin a {
+color: #333;
+background: #007BB6;
+border-top: 2px solid #83A9CB;
+}
+/* Colores Pinterest */
+.tarjeta.tpinterest a {
+color: #ccc;
+background: #CB2027;
+border-top: 2px solid #E88C80;
+}
+/* Colores Instagram */
+.tarjeta.tinstagram a {
+color: #ccc;
+background: #42719D;
+border-top: 2pxsolid #83A9CB;
+}  
+  .tabs {
+position: relative;
+min-height: 200px;
+clear: both;
+margin: 25px 0;
+}
+.tab {
+float: left;
+}
+.tab label {
+background: #eee;
+padding: 10px;
+border: 1px solid #ccc;
+margin-left: -1px;
+position: relative;
+left: 1px;
+}
+.tab [type=radio] {
+display: none;
+}
+.content {
+position: absolute;
+top: 28px;
+left: 0;
+background: white;
+right: 0;
+bottom: 0;
+padding: 20px;
+border: 1px solid #ccc;
+overflow: hidden;
+}
+.content > * {
+opacity: 0;
+
+-webkit-transform: translate3d(0, 0, 0);
+
+-webkit-transform: translateX(-100%);
+-moz-transform: translateX(-100%);
+-ms-transform: translateX(-100%);
+-o-transform: translateX(-100%);
+
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+}
+[type=radio]:checked ~ label {
+background: white;
+border-bottom: 1px solid white;
+z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+z-index: 1;
+}
+[type=radio]:checked ~ label ~ .content > * {
+opacity: 1;
+
+-webkit-transform: translateX(0);
+-moz-transform: translateX(0);
+-ms-transform: translateX(0);
+-o-transform: translateX(0);
+}
+  <style>
+ul.menured * {margin: 0 auto; padding: 0; text-indent: 0;
+-moz-transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;transition: all .5s ease-in-out;}
+
+ul.menured {list-style: none; width: 1800px; max-width: 100%; margin: 0 auto; text-align: center;}
+
+ul.menured li {position: relative; display:inline-block; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width:44px; height: 44px; overflow: hidden; margin: 2px; padding: 5px; border-radius: 44px; border: 1px solid transparent; background: #fff;
+-moz-box-shadow: 1px 1px 3px #555; -webkit-box-shadow: 1px 1px 3px #555; box-shadow: 1px 1px 3px #555;}
+
+ul.menured li a[class^=red] {position: absolute; top: 5px; left: 5px; display: block;width: 32px;height: 32px; -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+
+a.red1 {background:url(https://2.bp.blogspot.com/-BLOpL79hRq0/UdNeyumjXYI/AAAAAAAAK7E/4gCBEFR4JRk/s32/home.png) no-repeat;}
+a.red2 {background:url(https://2.bp.blogspot.com/-rvP0hlwHzEk/UdNeoq9rEgI/AAAAAAAAK60/Nq_kzwUPiFY/s32/info.png) no-repeat;}
+a.red3 {background:url(https://2.bp.blogspot.com/-5H9SkAxPuXQ/UdNep8XWLzI/AAAAAAAAK68/BkXJ4YvmGOg/s32/redes.png) no-repeat;}
+a.red4 {background:url(https://4.bp.blogspot.com/-kyZIdwOjJmI/UdNen_SC6dI/AAAAAAAAK6s/BpmHTKLYkNg/s32/contacto.png) no-repeat;}
+
+ul.menured li div {margin: 0px 8px 5px 38px; text-align: center;}
+ul.menured li div h5 {text-align: left; text-transform: uppercase;}
+ul.menured li div a {display: inline;margin: 0 3px;font-size: 12px; color: #F36900;}
+
+ul.menured div a:hover {color: grey;}
+ul.menured li:hover {width:240px;}
+ul.menured li:hover a[class^=red] {-moz-transform: rotate(720deg); -webkit-transform: rotate(720deg); transform: rotate(720deg);}
+</style>
+  .mis-categorias{
+width: 100%;
+height: 62px;
+background-color: #0d7de0;
+padding: 17px;
+margin-bottom: 4px;
+text-align: center;
+text-transform: uppercase;
+font-family: ‘Open Sans’, Arial;
+font-size: 1.2em;
+color: #fff;
+}
+
+.mis-categorias a{
+color: #fff;
+text-decoration: none;
+}
+
+.mis-categorias a:hover{
+color: #fff;
+}
+
+.mis-categorias:hover{
+background-color: #FF5733;
+}
+  /* Content Boxes
+———————————————————— */
+.content-box-blue,
+.content-box-gray,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow,
+.content-light-blue {
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px;
+}
+
+.content-box-blue {
+background-color: #d8ecf7;
+border: 1px solid #afcde3;
+}
+
+.content-box-gray {
+background-color: #e2e2e2;
+border: 1px solid #bdbdbd;
+}
+
+.content-box-green {
+background-color: #d9edc2;
+border: 1px solid #b2ce96;
+}
+
+.content-box-purple {
+background-color: #e2e2f9;
+border: 1px solid #bebde9;
+}
+
+.content-box-red {
+background-color: #f9dbdb;
+border: 1px solid #e9b3b3;
+}
+
+.content-box-yellow {
+background-color: #fef5c4;
+border: 1px solid #fadf98;
+}
+
+.content-light-blue {
+background-color: #B2FBFC;
+border: 1px solid #92DCFE;
+}
