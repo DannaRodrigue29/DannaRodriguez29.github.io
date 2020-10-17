@@ -1,0 +1,535 @@
+   <!DOCTYPE htlm>
+<htlm>
+<head>
+    <title>José A. Rodriguez</title> 
+    <meta name="author" content="Danna Rodriguez">
+    <meta name= "despcription" content="Somos una empresa que se encarga de tipografía en revistas, volantes, calendarios, cajas y algunos otros productos"
+</head>   
+<body>
+    <p>
+    En nuestra empresa les ofrecemos      diferentes tipos de tipografía en diferentes productos, como por ejemplo:    
+    </p>
+    <p>
+   Un Calendario
+    </p>  
+    <br>
+    <img src="https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fwww.imprentaonline.net%2Fcalendarios-pared-faldilla&psig=AOvVaw3hg7ODjYp3B_tKwzkOAUPt&ust=1590779930830000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiEvK3h0ekCFQAAAAAdAAAAABAD">
+    <br> 
+    <p>    
+    Todos nuestros productos se entregan personalizados y al por mayor.  
+    </p>
+    <p>
+  A continuación le mostraremos algunos de los precios en algunos productos
+    </p>
+    <table border="1">
+         <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+         </tr>
+         <tr>
+              <td>Calendario</td>
+              <td>12</td>
+              <td>30.000</td>
+         </tr>
+         <tr>
+              <td>Revista</td>
+              <td>12</td>
+              <td>60.000</td>
+         </tr>
+         <tr>      
+              <td>Volante</td>
+              <td>12</td>
+              <td>10.000</td>
+        </tr>  
+        <header style="widht:800px; heigth:200px; background:#CCCCCC">
+        José A Rodriguez
+        </header>
+        <nav style="width:200px; height:400px; float:left; background:FFFF99">
+        Menu  
+        </nav>
+        <section style="width:600px; height:400px; float:left; background:#7777FF">
+        Contenido 
+        </section>
+        <header style ="width:100%; heigth:15%; backgrond:#CCCCCC">
+          José A. Rodriguez
+        </header> 
+        <nav style="width:30%; height:80; float:left; background:FFFF99">
+          Menú
+        </nav>
+        <section style="width:70%; height:15%; float:left; background:#7777FF">
+</body>
+</htlm>
+  
+  
+<div class=”slider”><div class=”slider”> <ul> <li>  <img src=”https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fimpresosfenix.com.co%2Fmugs%2F&psig=AOvVaw2CfdWJ3b9L8N6K9uij__Jv&ust=1598407712865000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjl1JSktesCFQAAAAAdAAAAABAE” alt=””> </li> <li>  <img src=”https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fwww.colomguia.com%2Fimpresores-litografias-bogota%2F&psig=AOvVaw2CfdWJ3b9L8N6K9uij__Jv&ust=1598407712865000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjl1JSktesCFQAAAAAdAAAAABAQ””></li> <li>  <img src=”https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fwww.wpublicidad.com.co%2Fservicios%2Flitografia-impresion-cali%2F&psig=AOvVaw2CfdWJ3b9L8N6K9uij__Jv&ust=1598407712865000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjl1JSktesCFQAAAAAdAAAAABAW” alt=””></li> <li>  <img src=”https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fwww.eventosdesegovia.com%2Fevents%2Ftaller-cuadros-de-tierra-y-pigmentos-en-duermevela-hostel%2F&psig=AOvVaw2CfdWJ3b9L8N6K9uij__Jv&ust=1598407712865000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjl1JSktesCFQAAAAAdAAAAABAc” alt=””></li> </ul> </div>
+
+  
+  
+  
+  
+  
+  
+  
+  <ul class=”acorh”>
+<li><a href=”#”>OPCIÓN 1</a>
+<ul>
+<li><a href=”URL11″>Opción 1.1</a></li>
+<li><a href=”URL12″>Opción 1.2</a></li>
+</ul>
+</li>
+<li><a href=”#”>OPCIÓN 2</a>
+<ul>
+<li><a href=”URL21″>Opción 2.1</a></li>
+<li><a href=”URL22″>Opción 2.2</a></li>
+<li><a href=”URL23″>Opción 2.3</a></li>
+</ul>
+</li>
+<li><a href=”#”>OPCIÓN 3</a>
+<ul>
+<li><a href=”URL31″>Opción 3.1</a></li>
+<li><a href=”URL32″>Opción 3.2</a></li>
+</ul>
+</li>
+</ul>
+  <link href=”//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” rel=”stylesheet”/>
+<div class=”cartera”>
+<span style=”font-family: Lobster, italic;font-size: 40px;”>En la Red</span>
+<div class=”tarjeta tfacebook”>
+<a class=”fa-facebook” href=”ENLACE_CTA_FACEBOOK”>Facebook</a>
+</div>
+<div class=”tarjeta tgoogle”>
+<a class=”fa-google-plus” href=”ENLACE_CTA_GOOGLE+”>Google+</a>
+</div>
+<div class=”tarjeta ttwitter”>
+<a class=”fa-twitter” href=”ENLACE_CTA_TWITTER”>Twitter</a>
+</div>
+<div class=”tarjeta tlinkedin”>
+<a class=”fa-linkedin” href=”ENLACE_CTA_LINKEDIN”>Linkedin</a>
+</div>
+<div class=”tarjeta tpinterest”>
+<a class=”fa-pinterest” href=”ENLACE_CTA_PINTEREST”>Pinterest</a>
+</div>
+<div class=”tarjeta tinstagram”>
+<a class=”fa-instagram” href=”ENLACE_CTA_INSTAGRAM”>Instagram</a>
+</div>
+</div>
+  <div class=”tabs”>
+
+<div class=”tab”>
+<input type=”radio” id=”tab-1″ name=”tab-group-1″ checked>
+<label for=”tab-1″>Tab 1</label>
+
+<div class=”content”>
+<p>Aquí va algún contenido para el tab 1</p>
+</div>
+</div>
+
+<div class=”tab”>
+<input type=”radio” id=”tab-2″ name=”tab-group-1″>
+<label for=”tab-2″>Tab 2</label>
+
+<div class=”content”>
+<p>Aquí va algún contenido para el tab 2</p>
+
+<img src=”http://lorempixum.com/200/100/technics/”>
+</div>
+</div>
+
+<div class=”tab”>
+<input type=”radio” id=”tab-3″ name=”tab-group-1″>
+<label for=”tab-3″>Tab 3</label>
+
+<div class=”content”>
+<p>Aquí va algún contenido para el tab 3</p>
+
+<img src=”http://lorempixum.com/200/100/nightlife/”>
+</div>
+</div>
+
+</div>
+
+<ul class=”menured”>
+<li>
+<a class=”red1″></a>
+<div>
+<h5>Para empezar</h5>
+<a href=”javascript:void();”>Inicio</a>
+<a href=”javascript:void();”>Portfolio</a>
+</div>
+</li>
+<li>
+<a class=”red2″></a>
+<div>
+<h5>Información</h5>
+<a href=”javascript:void();”>Sobre nosotros</a>
+<a href=”javascript:void();”>Proyectos</a>
+</div>
+</li>
+<li>
+<a class=”red3″></a>
+<div>
+<h5>En redes</h5>
+<a href=”javascript:void();”>Twitter</a>
+<a href=”javascript:void();”>Facebook</a>
+<a href=”javascript:void();”>Google+</a>
+</div>
+</li>
+<li>
+<a class=”red4″></a>
+<div>
+<h5>Contacto</h5>
+<a href=”javascript:void();”>eMail</a>
+<a href=”javascript:void();”>Formulario</a>
+<a href=”javascript:void();”>Localización</a>
+</div>
+</li>
+</ul>
+  <div class=”mis-categorias”><a href=”URL CATEGORIA 1″>CATEGORIA 1</a></div>
+<div class=”mis-categorias”><a href=”URL CATEGORIA 2″>CATEGORIA 2</a></div>
+<div class=”mis-categorias”><a href=”URL CATEGORIA 3″>CATEGORIA 3</a></div>
+<div class=”mis-categorias”><a href=”URL CATEGORIA 4″>CATEGORIA 4</a></div><div class=”content-box-blue”>
+¡Productos y más!
+</div>
+<div class=”content-box-pink”>
+Todo lo que necesitas está aquí.
+</div>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table { font-family: “Lucida Sans Unicode”, “Lucida Grande”, Sans-Serif;
+font-size: 12px; margin: 45px; width: 480px; text-align: left; border-collapse: collapse; }
+
+th { font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe;
+border-top: 4px solid #aabcfe; border-bottom: 1px solid #fff; color: #039; }
+
+td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+color: #669; border-top: 1px solid transparent; }
+.slider {.slider { width: 95%; margin: auto; overflow: hidden;}
+.slider ul { display: flex; padding: 0; width: 400%; animation: cambio 20s infinite alternate linear;}
+.slider li { width: 100%; list-style: none;}
+.slider img { width: 100%;}
+@keyframes cambio { 0% {margin-left: 0;} 20% {margin-left: 0;} 25% {margin-left: -100%;} 45% {margin-left: -100%;} 50% {margin-left: -200%;} 70% {margin-left: -200%;} 75% {margin-left: -300%;} 100% {margin-left: -300%;}}
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 20px;
+background: #333;
+color: #eee;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666;
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+background: #999;
+color: #000;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+max-height: 300px;
+transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+background: #666;
+color: #fff;
+}
+/* Reset */
+.cartera, .tarjeta, .tarjeta a {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+/* Contenedor general */
+.cartera {
+position: relative;
+width: 100%;
+max-width: 500px;
+margin: 40px auto 0;
+text-align: center;
+line-height: 56px;
+font-size: 14px;
+font-family: sans-serif;
+}
+/* Cada tarjeta */
+.tarjeta {
+position: relative;
+width: 100%;
+height: 30px;
+margin: 0 auto;
+padding: 0;
+text-align: left;
+border-bottom: 3px groove #eee;
+}
+/* Estado normal */
+.tarjeta a {
+position: relative;
+display: block;
+top: -6px;
+left: 50%;
+width: 96%;
+margin-left: -48%;
+padding: 0 0 0 16px;
+line-height: 32px;
+font-weight: normal;
+border-radius: 16px 16px 0 0;
+text-decoration: none;
+box-shadow: 0 -2px 2px rgba(0,0,0,.1), 0 0 20px rgba(0,0,0,.2) inset;
+-webkit-transition: all .2s linear;
+-moz-transition: all .2s linear;
+transition: all .2s linear;
+}
+/* Elevación de las tarjetas */
+.tarjeta a:hover {
+line-height: 52px;
+top: -26px;
+text-decoration: none;
+}
+/* Logos */
+.tarjeta a:before {
+display: inline-block; *display: inline; zoom: 1;
+width: 20px;
+margin-right: 10px;
+text-align: center;
+font-family: Fontawesome;
+font-size: 18px;
+}
+/* Sombra parte inferior */
+.tarjeta a:after {
+content: “”;
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 102%;
+margin-left: -51%;
+height: 2px;
+display: block;
+border-radius: 80px 80px 0 0 ;
+box-shadow: 0 -2px 6px #666;
+z-index: -1;
+}
+/* Colores Twitter */
+.tarjeta.ttwitter a {
+color: #ddd;
+background-color: #01AFEC;
+border-top: 2px solid #43CFFE;
+}
+/* Colores Google+ */
+.tarjeta.tgoogle a {
+color: #333;
+background-color: #DB4A37;
+border-top: 2px solid #E88C80;
+}
+/* Colores Facebook */
+.tarjeta.tfacebook a {
+color: #ccc;
+background: #3B559F;
+border-top: 2px solid #6B83C9;
+}
+/* Colores Linkedin */
+.tarjeta.tlinkedin a {
+color: #333;
+background: #007BB6;
+border-top: 2px solid #83A9CB;
+}
+/* Colores Pinterest */
+.tarjeta.tpinterest a {
+color: #ccc;
+background: #CB2027;
+border-top: 2px solid #E88C80;
+}
+/* Colores Instagram */
+.tarjeta.tinstagram a {
+color: #ccc;
+background: #42719D;
+border-top: 2pxsolid #83A9CB;
+}  
+  .tabs {
+position: relative;
+min-height: 200px;
+clear: both;
+margin: 25px 0;
+}
+.tab {
+float: left;
+}
+.tab label {
+background: #eee;
+padding: 10px;
+border: 1px solid #ccc;
+margin-left: -1px;
+position: relative;
+left: 1px;
+}
+.tab [type=radio] {
+display: none;
+}
+.content {
+position: absolute;
+top: 28px;
+left: 0;
+background: white;
+right: 0;
+bottom: 0;
+padding: 20px;
+border: 1px solid #ccc;
+overflow: hidden;
+}
+.content > * {
+opacity: 0;
+
+-webkit-transform: translate3d(0, 0, 0);
+
+-webkit-transform: translateX(-100%);
+-moz-transform: translateX(-100%);
+-ms-transform: translateX(-100%);
+-o-transform: translateX(-100%);
+
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+}
+[type=radio]:checked ~ label {
+background: white;
+border-bottom: 1px solid white;
+z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+z-index: 1;
+}
+[type=radio]:checked ~ label ~ .content > * {
+opacity: 1;
+
+-webkit-transform: translateX(0);
+-moz-transform: translateX(0);
+-ms-transform: translateX(0);
+-o-transform: translateX(0);
+}
+  <style>
+ul.menured * {margin: 0 auto; padding: 0; text-indent: 0;
+-moz-transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;transition: all .5s ease-in-out;}
+
+ul.menured {list-style: none; width: 1800px; max-width: 100%; margin: 0 auto; text-align: center;}
+
+ul.menured li {position: relative; display:inline-block; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width:44px; height: 44px; overflow: hidden; margin: 2px; padding: 5px; border-radius: 44px; border: 1px solid transparent; background: #fff;
+-moz-box-shadow: 1px 1px 3px #555; -webkit-box-shadow: 1px 1px 3px #555; box-shadow: 1px 1px 3px #555;}
+
+ul.menured li a[class^=red] {position: absolute; top: 5px; left: 5px; display: block;width: 32px;height: 32px; -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+
+a.red1 {background:url(https://2.bp.blogspot.com/-BLOpL79hRq0/UdNeyumjXYI/AAAAAAAAK7E/4gCBEFR4JRk/s32/home.png) no-repeat;}
+a.red2 {background:url(https://2.bp.blogspot.com/-rvP0hlwHzEk/UdNeoq9rEgI/AAAAAAAAK60/Nq_kzwUPiFY/s32/info.png) no-repeat;}
+a.red3 {background:url(https://2.bp.blogspot.com/-5H9SkAxPuXQ/UdNep8XWLzI/AAAAAAAAK68/BkXJ4YvmGOg/s32/redes.png) no-repeat;}
+a.red4 {background:url(https://4.bp.blogspot.com/-kyZIdwOjJmI/UdNen_SC6dI/AAAAAAAAK6s/BpmHTKLYkNg/s32/contacto.png) no-repeat;}
+
+ul.menured li div {margin: 0px 8px 5px 38px; text-align: center;}
+ul.menured li div h5 {text-align: left; text-transform: uppercase;}
+ul.menured li div a {display: inline;margin: 0 3px;font-size: 12px; color: #F36900;}
+
+ul.menured div a:hover {color: grey;}
+ul.menured li:hover {width:240px;}
+ul.menured li:hover a[class^=red] {-moz-transform: rotate(720deg); -webkit-transform: rotate(720deg); transform: rotate(720deg);}
+</style>
+  .mis-categorias{
+width: 100%;
+height: 62px;
+background-color: #0d7de0;
+padding: 17px;
+margin-bottom: 4px;
+text-align: center;
+text-transform: uppercase;
+font-family: ‘Open Sans’, Arial;
+font-size: 1.2em;
+color: #fff;
+}
+
+.mis-categorias a{
+color: #fff;
+text-decoration: none;
+}
+
+.mis-categorias a:hover{
+color: #fff;
+}
+
+.mis-categorias:hover{
+background-color: #FF5733;
+}
+  /* Content Boxes
+———————————————————— */
+.content-box-blue,
+.content-box-gray,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow,
+.content-light-blue {
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px;
+}
+
+.content-box-blue {
+background-color: #d8ecf7;
+border: 1px solid #afcde3;
+}
+
+.content-box-gray {
+background-color: #e2e2e2;
+border: 1px solid #bdbdbd;
+}
+
+.content-box-green {
+background-color: #d9edc2;
+border: 1px solid #b2ce96;
+}
+
+.content-box-purple {
+background-color: #e2e2f9;
+border: 1px solid #bebde9;
+}
+
+.content-box-red {
+background-color: #f9dbdb;
+border: 1px solid #e9b3b3;
+}
+
+.content-box-yellow {
+background-color: #fef5c4;
+border: 1px solid #fadf98;
+}
+
+.content-light-blue {
+background-color: #B2FBFC;
+border: 1px solid #92DCFE;
+}
